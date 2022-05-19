@@ -1,5 +1,6 @@
 ﻿using crp_api.Models.Entities;
 using Microsoft.EntityFrameworkCore;
+using NodaTime;
 
 namespace crp_api.Data
 {
@@ -42,7 +43,7 @@ namespace crp_api.Data
             modelBuilder
                 .Entity<Report>()
                 .HasOne(r => r.USER)
-                .WithMany(r => r.REPORTS) 
+                .WithMany(r => r.REPORTS)
                 .HasForeignKey(u => u.USER_ID);
             modelBuilder
                 .Entity<Report>()
@@ -54,11 +55,11 @@ namespace crp_api.Data
                 .HasOne(r => r.REPORTTYPE)
                 .WithMany(r => r.REPORTS)
                 .OnDelete(DeleteBehavior.ClientNoAction);
-             modelBuilder
-                .Entity<ReportLog>()
-                .HasOne(r => r.REPORT)
-                .WithMany(r => r.REPORTLOGS)
-                .HasForeignKey(r => r.REPORT_ID);
+            modelBuilder
+               .Entity<ReportLog>()
+               .HasOne(r => r.REPORT)
+               .WithMany(r => r.REPORTLOGS)
+               .HasForeignKey(r => r.REPORT_ID);
             modelBuilder
                 .Entity<ReportLog>()
                 .HasOne(r => r.REPORT)
@@ -70,6 +71,26 @@ namespace crp_api.Data
                .WithMany(r => r.REPORTS)
                .HasForeignKey(r => r.REPORTSTATUS_ID);
 
+        }
+
+        public Task<int> SaveSessionChangesAsync(CancellationToken cancellationToken = new(), Guid user = new())
+        {
+            var entries = ChangeTracker
+                .Entries()
+                .Where(e =>
+                    e.State == EntityState.Added
+                    || e.State == EntityState.Modified);
+            foreach (var entityEntry in entries)
+            {
+                entityEntry.Property("UPDATED_BY").CurrentValue = user;
+                entityEntry.Property("DATE_UPDATED").CurrentValue = Instant.FromDateTimeUtc(DateTime.Now.ToUniversalTime());
+                if (entityEntry.State == EntityState.Added)
+                {
+                    entityEntry.Property("CREATED_BY").CurrentValue = user;
+                    entityEntry.Property("DATE_CREATED").CurrentValue = Instant.FromDateTimeUtc(DateTime.Now.ToUniversalTime());
+                }
+            }
+            return base.SaveChangesAsync(cancellationToken);
         }
     }
 }
