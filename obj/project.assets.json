@@ -12396,26 +12396,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Denver\\.nuget\\packages\\": {}
+    "/Users/michaelaaustria/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Denver\\Desktop\\crp-api\\crp-api\\crp-api.csproj",
+      "projectUniqueName": "/Users/michaelaaustria/Documents/AAA COLLEGE/4TH YEAR/3RD SEM/INTERNSHIP FILES/AAA TIMEFREE/May 17/crp-api/crp-api/crp-api.csproj",
       "projectName": "crp-api",
-      "projectPath": "C:\\Users\\Denver\\Desktop\\crp-api\\crp-api\\crp-api.csproj",
-      "packagesPath": "C:\\Users\\Denver\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Denver\\Desktop\\crp-api\\crp-api\\obj\\",
+      "projectPath": "/Users/michaelaaustria/Documents/AAA COLLEGE/4TH YEAR/3RD SEM/INTERNSHIP FILES/AAA TIMEFREE/May 17/crp-api/crp-api/crp-api.csproj",
+      "packagesPath": "/Users/michaelaaustria/.nuget/packages/",
+      "outputPath": "/Users/michaelaaustria/Documents/AAA COLLEGE/4TH YEAR/3RD SEM/INTERNSHIP FILES/AAA TIMEFREE/May 17/crp-api/crp-api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Denver\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/michaelaaustria/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12567,7 +12565,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.203/RuntimeIdentifierGraph.json"
       }
     }
   }
