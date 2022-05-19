@@ -12396,24 +12396,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/michaelaaustria/.nuget/packages/": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michaelaaustria/Documents/AAA COLLEGE/4TH YEAR/3RD SEM/INTERNSHIP FILES/AAA TIMEFREE/May 17/crp-api/crp-api/crp-api.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\crp-api\\crp-api\\crp-api.csproj",
       "projectName": "crp-api",
-      "projectPath": "/Users/michaelaaustria/Documents/AAA COLLEGE/4TH YEAR/3RD SEM/INTERNSHIP FILES/AAA TIMEFREE/May 17/crp-api/crp-api/crp-api.csproj",
-      "packagesPath": "/Users/michaelaaustria/.nuget/packages/",
-      "outputPath": "/Users/michaelaaustria/Documents/AAA COLLEGE/4TH YEAR/3RD SEM/INTERNSHIP FILES/AAA TIMEFREE/May 17/crp-api/crp-api/obj/",
+      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\crp-api\\crp-api\\crp-api.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ADMIN\\source\\repos\\crp-api\\crp-api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/michaelaaustria/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12565,7 +12572,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

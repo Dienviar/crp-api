@@ -7,7 +7,6 @@ namespace crp_api.GQL.Input.Reports
         Guid? REPORTTYPE_ID,
         Guid? USER_ID
     );
-
     public record EditReportInput(
         Guid REPORT_ID,
         string? TITLE,
@@ -15,6 +14,5 @@ namespace crp_api.GQL.Input.Reports
         string? URL,
         Guid? REPORTSTATUS_ID
     );
-
 
 }

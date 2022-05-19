@@ -43,7 +43,7 @@ namespace crp_api.Data
             modelBuilder
                 .Entity<Report>()
                 .HasOne(r => r.USER)
-                .WithMany(r => r.REPORTS)
+                .WithMany(r => r.REPORTS) 
                 .HasForeignKey(u => u.USER_ID);
             modelBuilder
                 .Entity<Report>()
@@ -55,24 +55,23 @@ namespace crp_api.Data
                 .HasOne(r => r.REPORTTYPE)
                 .WithMany(r => r.REPORTS)
                 .OnDelete(DeleteBehavior.ClientNoAction);
-            modelBuilder
-               .Entity<ReportLog>()
-               .HasOne(r => r.REPORT)
-               .WithMany(r => r.REPORTLOGS)
-               .HasForeignKey(r => r.REPORT_ID);
+             modelBuilder
+                .Entity<ReportLog>()
+                .HasOne(r => r.REPORT)
+                .WithMany(r => r.REPORTLOGS)
+                .HasForeignKey(r => r.REPORT_ID);
             modelBuilder
                 .Entity<ReportLog>()
                 .HasOne(r => r.REPORT)
                 .WithMany(r => r.REPORTLOGS)
                 .OnDelete(DeleteBehavior.ClientNoAction);
             modelBuilder
-               .Entity<Report>()
-               .HasOne(r => r.REPORTSTATUS)
-               .WithMany(r => r.REPORTS)
-               .HasForeignKey(r => r.REPORTSTATUS_ID);
+                .Entity<Report>()
+                .HasOne(r => r.REPORTSTATUS)
+                .WithMany(r => r.REPORTS)
+                .HasForeignKey(r => r.REPORTSTATUS_ID);
 
         }
-
         public Task<int> SaveSessionChangesAsync(CancellationToken cancellationToken = new(), Guid user = new())
         {
             var entries = ChangeTracker

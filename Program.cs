@@ -2,6 +2,7 @@ using crp_api.Data;
 using crp_api.GQL.Mutations;
 using crp_api.GQL.Queries;
 using crp_api.XSystem;
+using GraphQL.Server.Ui.Voyager;
 using HotChocolate.Data.Filters;
 using HotChocolate.Types.Descriptors;
 using HotChocolate.Types.NodaTime;
@@ -58,6 +59,16 @@ builder.Services.AddGraphQLServer()
                         IncludeTotalCount = true
                     })
                 .ModifyRequestOptions(opt => opt.IncludeExceptionDetails = true);
+// builder.Services.AddGraphQLServer().AddQueryType<Query>();
+// builder.Services.AddGraphQLServer().AddMutationType<Mutation>();
+// builder.Services.AddType<UploadType>().
+// builder.Services.AddGraphQLServer().AddMutationType<Mutation>();
+// builder.Services.AddGraphQLServer().AddMutationType<Mutation>();
+// builder.Services.AddGraphQLServer().AddMutationType<Mutation>();
+// builder.Services.AddGraphQLServer().AddMutationType<Mutation>();
+// builder.Services.AddGraphQLServer().AddMutationType<Mutation>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -78,5 +89,11 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.MapGraphQL("/graphql");
+app.UseGraphQLVoyager(new VoyagerOptions()
+{
+    GraphQLEndPoint = "/graphql"
+});
 
 app.Run();
+
+

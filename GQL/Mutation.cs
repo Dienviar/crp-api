@@ -1,6 +1,6 @@
 using crp_api.Data;
 using crp_api.GQL.Input.Users;
-using crp_api.GQL.Payload.Users;
+using crp_api.GQL.PayLoad.Users;
 
 namespace crp_api.GQL.Mutations
 {
@@ -15,21 +15,20 @@ namespace crp_api.GQL.Mutations
             var appUser = new Guid();
             try
             {
-                var user = new crp_api.Models.Entities.User
+                var user = new crp_api.Models.Entities.User 
                 {
                     FNAME = input.FNAME,
                     LNAME = input.LNAME,
-                    EMAIL = input.EMAIL,
-                    USER_ID = appUser
+                    EMAIL = input.EMAIL
                 };
 
                 context.USERS.Add(user);
                 await context.SaveSessionChangesAsync(cancellationToken, appUser);
                 return new UserPayload(user);
             }
-            catch (Exception e)
+            catch(Exception e)
             {
-                throw e;
+                return null;
             }
         }
     }

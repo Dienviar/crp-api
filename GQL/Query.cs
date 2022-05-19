@@ -11,20 +11,19 @@ namespace crp_api.GQL.Queries
         [UseFiltering]
         [UseSorting]
 
-        public IQueryable<User> GetUsers([Service] AppDbContext context)
+        public IQueryable<User> GetUsers([Service] AppDbContext context) 
         {
             return context.USERS;
         }
-
-
         [UseDbContext(typeof(AppDbContext))]
         [UseOffsetPaging]
         [UseProjection]
         [UseFiltering]
         [UseSorting]
-        public IQueryable<Report> GetReports([Service] AppDbContext context)
+         public IQueryable<Report> GetReport([Service] AppDbContext context) 
         {
             return context.REPORTS;
         }
+         
     }
 }
