@@ -1,9 +1,9 @@
 using crp_api.Data;
 using crp_api.GQL.Input.Users;
-using crp_api.GQL.Input.ReportType;
-using crp_api.GQL.Input.UserRole;
+using crp_api.GQL.Input.Reports;
+using crp_api.GQL.Input.Proofs;
 using crp_api.Models.Entities;
-
+using crp_api.Models.Entities;
 using System.Net;
 
 namespace crp_api.GQL.Mutations
@@ -91,10 +91,9 @@ namespace crp_api.GQL.Mutations
             }
         }
 
-        //Report Type
         [UseDbContext(typeof(AppDbContext))]
-        public async Task<Response> AddReportTypeAsync(
-             AddReportTypeInput input, [Service] AppDbContext context,
+        public async Task<Response> AddReport(
+             AddReportInput input, [Service] AppDbContext context,
              CancellationToken cancellationToken
          )
         {
@@ -103,92 +102,16 @@ namespace crp_api.GQL.Mutations
             var appUser = new Guid();
             try
             {
-                var report = new crp_api.Models.Entities.ReportType
-                {
-                    NAME = input.NAME,
-                    DESCRIPTION = input.DESCRIPTION
-                    // CREATED_BY = input.CREATED_BY,
-                };
-
-                context.REPORTTYPES.Add(report);
-
-                await context.SaveSessionChangesAsync(cancellationToken, appUser);
-
-                await transaction.CommitAsync(cancellationToken);
-
-                return new Response
-                {
-                    ResponseCode = (int)HttpStatusCode.OK,
-                    ResponseMessage = "User Successfully Created",
-                    ResponseLabel = "User Successfully Created"
-                };
-            }
-            catch (Exception e)
-            {
-                await transaction.RollbackAsync(cancellationToken);
-
-                return null;
-            }
-        }
-
-        [UseDbContext(typeof(AppDbContext))]
-        public async Task<Response> EditReportTypeAsync(
-            EditReportTypeInput edit, [Service] AppDbContext context,
-            CancellationToken cancellationToken
-        )
-        {
-            var transaction = await context.Database.BeginTransactionAsync(cancellationToken);
-
-            var appUser = new Guid();
-            try
-            {
-                var report = await context.FindAsync<ReportType>(edit.REPORTTYPE_ID);
-
-                if (edit.NAME != null)
-                    report.NAME = edit.NAME;
-
-                if (edit.DESCRIPTION != null)
-                    report.DESCRIPTION = edit.DESCRIPTION;
-
-                context.REPORTTYPES.Update(report);
-                await context.SaveSessionChangesAsync(cancellationToken, appUser);
-
-                await transaction.CommitAsync(cancellationToken);
-
-                return new Response
-                {
-                    ResponseCode = (int)HttpStatusCode.OK,
-                    ResponseMessage = "User Successfully Created",
-                    ResponseLabel = "User Successfully Created"
-                };
-            }
-            catch (Exception e)
-            {
-                await transaction.RollbackAsync(cancellationToken);
-
-                return null;
-            }
-        }
-
-        //Role
-        [UseDbContext(typeof(AppDbContext))]
-        public async Task<Response> AddRoleAsync(
-                     AddRoleInput input, [Service] AppDbContext context,
-                     CancellationToken cancellationToken
-                 )
-        {
-            var transaction = await context.Database.BeginTransactionAsync(cancellationToken);
-
-            var appUser = new Guid();
-            try
-            {
-                var role = new crp_api.Models.Entities.crp_apiRole
+                var report = new crp_api.Models.Entities.Report
                 {
                     TITLE = input.TITLE,
-
+                    BODY = input.BODY,
+                    REPORTTYPE_ID = input.REPORTTYPE_ID,
+                    UPLOADED_PROOFS = input.UPLOADED_PROOFS,
+                    USER_ID = input.USER_ID
                 };
 
-                context.ROLES.Add(role);
+                context.REPORTS.Add(report);
 
                 await context.SaveSessionChangesAsync(cancellationToken, appUser);
 
@@ -210,9 +133,9 @@ namespace crp_api.GQL.Mutations
         }
 
         [UseDbContext(typeof(AppDbContext))]
-        public async Task<Response> EditRoleAsync(
-            EditRoleInput edit, [Service] AppDbContext context,
-            CancellationToken cancellationToken
+        public async Task<Response> AddProof(
+        AddProof input, [Service] AppDbContext context,
+        CancellationToken cancellationToken
         )
         {
             var transaction = await context.Database.BeginTransactionAsync(cancellationToken);
@@ -220,15 +143,16 @@ namespace crp_api.GQL.Mutations
             var appUser = new Guid();
             try
             {
-                var role = await context.FindAsync<crp_apiRole>(edit.ROLE_ID);
+                var proof = new crp_api.Models.Entities.Proof
+                {
+                    NAME = input.NAME,
+                    URL = input.URL,
+                    REMARKS = input.REMARKS,
+                    REPORT_ID = input.REPORT_ID
+                };
 
-                if (edit.TITLE != null)
-                    role.TITLE = edit.TITLE;
+                context.PROOF.Add(proof);
 
-                // if (edit.DATE_CREATED != null)
-                //     role.DATE_CREATED = edit.DATE_CREATED;
-
-                context.ROLES.Update(role);
                 await context.SaveSessionChangesAsync(cancellationToken, appUser);
 
                 await transaction.CommitAsync(cancellationToken);
@@ -248,7 +172,46 @@ namespace crp_api.GQL.Mutations
             }
         }
 
+        [UseDbContext(typeof(AppDbContext))]
+        public async Task<Response> EditProof(
+        EditProof edit, [Service] AppDbContext context,
+        CancellationToken cancellationToken
+        )
+        {
+            var transaction = await context.Database.BeginTransactionAsync(cancellationToken);
 
+            var appUser = new Guid();
+            try
+            {
+                var proof = await context.FindAsync<Proof>(edit.PROOF_ID);
 
+                if (edit.NAME != null)
+                    proof.NAME = edit.NAME;
+
+                if (edit.URL != null)
+                    proof.URL = edit.URL;
+
+                if (edit.REMARKS != null)
+                    proof.REMARKS = edit.REMARKS;
+
+                context.PROOF.Update(proof);
+                await context.SaveSessionChangesAsync(cancellationToken, appUser);
+
+                await transaction.CommitAsync(cancellationToken);
+
+                return new Response
+                {
+                    ResponseCode = (int)HttpStatusCode.OK,
+                    ResponseMessage = "User Successfully Created",
+                    ResponseLabel = "User Successfully Created"
+                };
+            }
+            catch (Exception e)
+            {
+                await transaction.RollbackAsync(cancellationToken);
+
+                return null;
+            }
+        }
     }
 }

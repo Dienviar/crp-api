@@ -25,27 +25,14 @@ namespace crp_api.GQL.Queries
             return context.REPORTS;
         }
 
-        //Report Type
         [UseDbContext(typeof(AppDbContext))]
         [UseOffsetPaging]
         [UseProjection]
         [UseFiltering]
         [UseSorting]
-        public IQueryable<ReportType> GetReportType([Service] AppDbContext context)
+        public IQueryable<Proof> GetProofs([Service] AppDbContext context)
         {
-            return context.REPORTTYPES;
+            return context.PROOF;
         }
-
-        //Role
-        [UseDbContext(typeof(AppDbContext))]
-        [UseOffsetPaging]
-        [UseProjection]
-        [UseFiltering]
-        [UseSorting]
-        public IQueryable<crp_apiRole> GetRole([Service] AppDbContext context)
-        {
-            return context.ROLES;
-        }
-
     }
 }

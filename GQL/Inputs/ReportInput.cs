@@ -1,10 +1,14 @@
+using crp_api.Models.Entities;
+using System;
+using System.Collections.Generic;
+
 namespace crp_api.GQL.Input.Reports
 {
     public record AddReportInput(
         string? TITLE,
         string? BODY,
-        string? URL,
         Guid? REPORTTYPE_ID,
+        List<Proof>? UPLOADED_PROOFS,
         Guid? USER_ID
     );
     public record EditReportInput(
@@ -14,19 +18,4 @@ namespace crp_api.GQL.Input.Reports
         string? URL,
         Guid? REPORTSTATUS_ID
     );
-
-    // public record AddReportTypeInput(
-    //     string? NAME,
-    //     string? DESCRIPTION,
-    //     Guid? REPORTTYPE_ID
-    // );
-
-    // public record EditReportTypeInput(
-    //     string? NAME,
-    //     string? DESCRIPTION,
-    //     string? UPDATED_BY,
-    //     Guid? REPORTTYPE_ID
-    // );
-
-
 }
