@@ -18,9 +18,76 @@ namespace crp_api.Data
         public DbSet<ReportStatus> REPORTSTATUSES { get; set; }
         public DbSet<ReportType> REPORTTYPES { get; set; }
 
+        public DbSet<Proof> PROOF { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasDefaultSchema("crp");
+
+            var instantConverter = new ValueConverter<Instant, DateTime>(i => i.ToDateTimeUtc(), it => Instant.FromDateTimeOffset(it));
+
+            modelBuilder
+                .Entity<User>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<User>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
+
+            modelBuilder
+                .Entity<Report>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<Report>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
+
+            modelBuilder
+                .Entity<ReportLog>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<ReportLog>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
+
+            modelBuilder
+                .Entity<ReportStatus>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<ReportStatus>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
+
+            modelBuilder
+                .Entity<ReportType>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<ReportType>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
+
+            modelBuilder
+                .Entity<crp_apiRole>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<crp_apiRole>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
+
+            modelBuilder
+                .Entity<Proof>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<Proof>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
 
             modelBuilder
                 .Entity<User>()
