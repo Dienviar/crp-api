@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "md3NiCJn2vVegxs0E4jZlNPKyMlrRroXvvTgrzGJsIZ804tJBbG0lAforhI8Lfa9C9L0JQGpeLsE82MZHyVPtA==",
+  "dgSpecHash": "uhelgJTvvkYZsiTqQBQOAp6UKhCarY61kLqS5ABb/jbVw2CaP2HCBbyNX3hpLIdV/hQCoiwMympnajKkwGLbmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Guiliano\\Desktop\\TimeFree\\CRP\\Backend\\crp-api\\crp-api.csproj",
+  "projectFilePath": "C:\\Users\\Guiliano\\Desktop\\TimeFree\\CRP\\Backend\\crp-api\\crp-api\\crp-api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guiliano\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\Guiliano\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
