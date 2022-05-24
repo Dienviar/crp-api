@@ -1,46 +1,11 @@
 {
   "Version": 1,
-  "Hash": "PaYOPzy6TtA7uCdODpbRvNisk5dXIUXSgSpCF5zfn90=",
+  "Hash": "V1Pw5LngjkV3/afNA4xrX0JvTkW/ocJe44Va2tKxFGE=",
   "Source": "crp-api",
   "BasePath": "_content/crp-api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [
-    {
-      "Identity": "C:\\Users\\ADMIN\\source\\repos\\crp-api\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\crp-api.styles.css",
-      "SourceId": "crp-api",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\crp-api\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/crp-api",
-      "RelativePath": "crp-api.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ADMIN\\source\\repos\\crp-api\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\crp-api.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\ADMIN\\source\\repos\\crp-api\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\crp-api.bundle.scp.css",
-      "SourceId": "crp-api",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\crp-api\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/crp-api",
-      "RelativePath": "crp-api.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ADMIN\\source\\repos\\crp-api\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\crp-api.bundle.scp.css"
-    }
-  ]
+  "Assets": []
 }

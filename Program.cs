@@ -1,6 +1,7 @@
 using crp_api.Data;
 using crp_api.GQL.Mutations;
 using crp_api.GQL.Queries;
+using crp_api.Services;
 using crp_api.XSystem;
 using GraphQL.Server.Ui.Voyager;
 using HotChocolate.Data.Filters;
@@ -12,11 +13,9 @@ using NodaTime;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddRazorPages();
 builder.Services.AddPooledDbContextFactory<AppDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), x => x.UseNodaTime());
 });
 builder.Services.AddScoped<AppDbContext>(
     sp => sp.GetRequiredService<IDbContextFactory<AppDbContext>>().CreateDbContext()
@@ -59,14 +58,7 @@ builder.Services.AddGraphQLServer()
                         IncludeTotalCount = true
                     })
                 .ModifyRequestOptions(opt => opt.IncludeExceptionDetails = true);
-// builder.Services.AddGraphQLServer().AddQueryType<Query>();
-// builder.Services.AddGraphQLServer().AddMutationType<Mutation>();
-// builder.Services.AddType<UploadType>().
-// builder.Services.AddGraphQLServer().AddMutationType<Mutation>();
-// builder.Services.AddGraphQLServer().AddMutationType<Mutation>();
-// builder.Services.AddGraphQLServer().AddMutationType<Mutation>();
-// builder.Services.AddGraphQLServer().AddMutationType<Mutation>();
-// builder.Services.AddGraphQLServer().AddMutationType<Mutation>();
+Dapper.SqlMapper.AddTypeHandler(new DapperInstantHandler());
 
 
 var app = builder.Build();
@@ -79,14 +71,14 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
+//app.UseHttpsRedirection();
+//app.UseStaticFiles();
 
-app.UseRouting();
+//app.UseRouting();
 
-app.UseAuthorization();
+//app.UseAuthorization();
 
-app.MapRazorPages();
+//app.MapRazorPages();
 
 app.MapGraphQL("/graphql");
 app.UseGraphQLVoyager(new VoyagerOptions()

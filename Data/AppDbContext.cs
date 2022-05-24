@@ -1,5 +1,6 @@
 ﻿using crp_api.Models.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NodaTime;
 
 namespace crp_api.Data
@@ -20,6 +21,72 @@ namespace crp_api.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasDefaultSchema("crp");
+
+            var instantConverter = new ValueConverter<Instant, DateTime>(i => i.ToDateTimeUtc(), it => Instant.FromDateTimeOffset(it));
+
+            modelBuilder
+                .Entity<User>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<User>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
+
+            modelBuilder
+                .Entity<Report>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<Report>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
+
+            modelBuilder
+                .Entity<ReportLog>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<ReportLog>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
+
+            modelBuilder
+                .Entity<ReportStatus>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<ReportStatus>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
+
+            modelBuilder
+                .Entity<ReportType>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<ReportType>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
+
+            modelBuilder
+                .Entity<crp_apiRole>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<crp_apiRole>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
+
+            modelBuilder
+                .Entity<Proof>()
+                .Property(u => u.DATE_CREATED)
+                .HasConversion(instantConverter);
+            modelBuilder
+                .Entity<Proof>()
+                .Property(u => u.DATE_UPDATED)
+                .HasConversion(instantConverter);
+
             modelBuilder
                 .Entity<User>()
                 .Property(u => u.USER_ID)
@@ -41,10 +108,24 @@ namespace crp_api.Data
                 .Property(t => t.REPORTTYPE_ID)
                 .HasDefaultValueSql("newsequentialid()");
             modelBuilder
+                .Entity<crp_apiRole>()
+                .Property(t => t.ROLE_ID)
+                .HasDefaultValueSql("newsequentialid()");
+            modelBuilder
+                .Entity<Proof>()
+                .Property(t => t.PROOF_ID)
+                .HasDefaultValueSql("newsequentialid()");
+
+            modelBuilder
                 .Entity<Report>()
                 .HasOne(r => r.USER)
-                .WithMany(r => r.REPORTS) 
+                .WithMany(r => r.REPORTS)
                 .HasForeignKey(u => u.USER_ID);
+            modelBuilder
+                .Entity<Report>()
+                .HasOne(r => r.USER)
+                .WithMany(r => r.REPORTS)
+                .OnDelete(DeleteBehavior.ClientNoAction);
             modelBuilder
                 .Entity<Report>()
                 .HasOne(r => r.REPORTTYPE)
@@ -55,21 +136,35 @@ namespace crp_api.Data
                 .HasOne(r => r.REPORTTYPE)
                 .WithMany(r => r.REPORTS)
                 .OnDelete(DeleteBehavior.ClientNoAction);
-             modelBuilder
-                .Entity<ReportLog>()
-                .HasOne(r => r.REPORT)
-                .WithMany(r => r.REPORTLOGS)
-                .HasForeignKey(r => r.REPORT_ID);
-            modelBuilder
-                .Entity<ReportLog>()
-                .HasOne(r => r.REPORT)
-                .WithMany(r => r.REPORTLOGS)
-                .OnDelete(DeleteBehavior.ClientNoAction);
             modelBuilder
                 .Entity<Report>()
                 .HasOne(r => r.REPORTSTATUS)
                 .WithMany(r => r.REPORTS)
                 .HasForeignKey(r => r.REPORTSTATUS_ID);
+            modelBuilder
+                .Entity<Report>()
+                .HasOne(r => r.REPORTSTATUS)
+                .WithMany(r => r.REPORTS)
+                .OnDelete(DeleteBehavior.ClientNoAction);
+
+            modelBuilder
+               .Entity<ReportLog>()
+               .HasOne(r => r.REPORT)
+               .WithMany(r => r.REPORTLOGS)
+               .HasForeignKey(r => r.REPORT_ID);
+
+            modelBuilder
+               .Entity<Proof>()
+               .HasOne(r => r.REPORT)
+               .WithMany(r => r.UPLOADED_PROOFS)
+               .HasForeignKey(r => r.REPORT_ID);
+
+            modelBuilder
+               .Entity<User>()
+               .HasOne(r => r.ROLE)
+               .WithMany(r => r.USERS)
+               .HasForeignKey(r => r.ROLE_ID);
+
 
         }
         public Task<int> SaveSessionChangesAsync(CancellationToken cancellationToken = new(), Guid user = new())

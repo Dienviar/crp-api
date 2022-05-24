@@ -23,6 +23,77 @@ namespace crp_api.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("crp_api.Models.Entities.crp_apiRole", b =>
+                {
+                    b.Property<Guid>("ROLE_ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier")
+                        .HasDefaultValueSql("newsequentialid()");
+
+                    b.Property<Guid?>("CREATED_BY")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("DATE_CREATED")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DATE_UPDATED")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("IS_ACTIVE")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("TITLE")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("UPDATED_BY")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ROLE_ID");
+
+                    b.ToTable("crp_apiRole", "crp");
+                });
+
+            modelBuilder.Entity("crp_api.Models.Entities.Proof", b =>
+                {
+                    b.Property<Guid>("PROOF_ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier")
+                        .HasDefaultValueSql("newsequentialid()");
+
+                    b.Property<Guid?>("CREATED_BY")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("DATE_CREATED")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DATE_UPDATED")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("IS_ACTIVE")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("NAME")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("REMARKS")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("REPORT_ID")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("UPDATED_BY")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("URL")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PROOF_ID");
+
+                    b.HasIndex("REPORT_ID");
+
+                    b.ToTable("Proof", "crp");
+                });
+
             modelBuilder.Entity("crp_api.Models.Entities.Report", b =>
                 {
                     b.Property<Guid>("REPORT_ID")
@@ -33,6 +104,24 @@ namespace crp_api.Migrations
                     b.Property<string>("BODY")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<Guid?>("CREATED_BY")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("DATE_COMPLETED")
+                        .HasColumnType("date");
+
+                    b.Property<DateTime?>("DATE_CREATED")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DATE_FILLED")
+                        .HasColumnType("date");
+
+                    b.Property<DateTime?>("DATE_UPDATED")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("IS_ACTIVE")
+                        .HasColumnType("bit");
+
                     b.Property<Guid?>("REPORTSTATUS_ID")
                         .HasColumnType("uniqueidentifier");
 
@@ -41,6 +130,9 @@ namespace crp_api.Migrations
 
                     b.Property<string>("TITLE")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("UPDATED_BY")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("URL")
                         .HasColumnType("nvarchar(max)");
@@ -66,13 +158,28 @@ namespace crp_api.Migrations
                         .HasColumnType("uniqueidentifier")
                         .HasDefaultValueSql("newsequentialid()");
 
+                    b.Property<Guid?>("CREATED_BY")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("DATE_CREATED")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DATE_UPDATED")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("DESCRIPTION")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool?>("IS_ACTIVE")
+                        .HasColumnType("bit");
 
                     b.Property<string>("NAME")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid?>("REPORT_ID")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("UPDATED_BY")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("REPORTLOG_ID");
@@ -89,8 +196,26 @@ namespace crp_api.Migrations
                         .HasColumnType("uniqueidentifier")
                         .HasDefaultValueSql("newsequentialid()");
 
+                    b.Property<Guid?>("CREATED_BY")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("DATE_CREATED")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DATE_UPDATED")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DESCRIPTION")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool?>("IS_ACTIVE")
+                        .HasColumnType("bit");
+
                     b.Property<string>("NAME")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("UPDATED_BY")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("REPORTSTATUS_ID");
 
@@ -104,8 +229,26 @@ namespace crp_api.Migrations
                         .HasColumnType("uniqueidentifier")
                         .HasDefaultValueSql("newsequentialid()");
 
+                    b.Property<Guid?>("CREATED_BY")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("DATE_CREATED")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DATE_UPDATED")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DESCRIPTION")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool?>("IS_ACTIVE")
+                        .HasColumnType("bit");
+
                     b.Property<string>("NAME")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("UPDATED_BY")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("REPORTTYPE_ID");
 
@@ -119,25 +262,55 @@ namespace crp_api.Migrations
                         .HasColumnType("uniqueidentifier")
                         .HasDefaultValueSql("newsequentialid()");
 
+                    b.Property<Guid?>("CREATED_BY")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("DATE_CREATED")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DATE_UPDATED")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("EMAIL")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FNAME")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool?>("IS_ACTIVE")
+                        .HasColumnType("bit");
+
                     b.Property<string>("LNAME")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<Guid?>("ROLE_ID")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("UPDATED_BY")
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("USER_ID");
 
+                    b.HasIndex("ROLE_ID");
+
                     b.ToTable("USERS", "crp");
+                });
+
+            modelBuilder.Entity("crp_api.Models.Entities.Proof", b =>
+                {
+                    b.HasOne("crp_api.Models.Entities.Report", "REPORT")
+                        .WithMany("UPLOADED_PROOFS")
+                        .HasForeignKey("REPORT_ID");
+
+                    b.Navigation("REPORT");
                 });
 
             modelBuilder.Entity("crp_api.Models.Entities.Report", b =>
                 {
                     b.HasOne("crp_api.Models.Entities.ReportStatus", "REPORTSTATUS")
                         .WithMany("REPORTS")
-                        .HasForeignKey("REPORTSTATUS_ID");
+                        .HasForeignKey("REPORTSTATUS_ID")
+                        .OnDelete(DeleteBehavior.ClientNoAction);
 
                     b.HasOne("crp_api.Models.Entities.ReportType", "REPORTTYPE")
                         .WithMany("REPORTS")
@@ -146,7 +319,8 @@ namespace crp_api.Migrations
 
                     b.HasOne("crp_api.Models.Entities.User", "USER")
                         .WithMany("REPORTS")
-                        .HasForeignKey("USER_ID");
+                        .HasForeignKey("USER_ID")
+                        .OnDelete(DeleteBehavior.ClientNoAction);
 
                     b.Navigation("REPORTSTATUS");
 
@@ -159,15 +333,30 @@ namespace crp_api.Migrations
                 {
                     b.HasOne("crp_api.Models.Entities.Report", "REPORT")
                         .WithMany("REPORTLOGS")
-                        .HasForeignKey("REPORT_ID")
-                        .OnDelete(DeleteBehavior.ClientNoAction);
+                        .HasForeignKey("REPORT_ID");
 
                     b.Navigation("REPORT");
+                });
+
+            modelBuilder.Entity("crp_api.Models.Entities.User", b =>
+                {
+                    b.HasOne("crp_api.Models.Entities.crp_apiRole", "ROLE")
+                        .WithMany("USERS")
+                        .HasForeignKey("ROLE_ID");
+
+                    b.Navigation("ROLE");
+                });
+
+            modelBuilder.Entity("crp_api.Models.Entities.crp_apiRole", b =>
+                {
+                    b.Navigation("USERS");
                 });
 
             modelBuilder.Entity("crp_api.Models.Entities.Report", b =>
                 {
                     b.Navigation("REPORTLOGS");
+
+                    b.Navigation("UPLOADED_PROOFS");
                 });
 
             modelBuilder.Entity("crp_api.Models.Entities.ReportStatus", b =>

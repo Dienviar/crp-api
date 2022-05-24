@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1700.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crp-api", "crp-api.csproj", "{953708AD-A454-4F39-9450-E901B70B03F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crp-api", "crp-api.csproj", "{31C00EE3-7420-4D8A-A6F5-5E6960792E89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{953708AD-A454-4F39-9450-E901B70B03F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{953708AD-A454-4F39-9450-E901B70B03F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{953708AD-A454-4F39-9450-E901B70B03F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{953708AD-A454-4F39-9450-E901B70B03F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C00EE3-7420-4D8A-A6F5-5E6960792E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C00EE3-7420-4D8A-A6F5-5E6960792E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C00EE3-7420-4D8A-A6F5-5E6960792E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C00EE3-7420-4D8A-A6F5-5E6960792E89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D83ED064-28E5-4594-BA3B-1CD8F3783E74}
+		SolutionGuid = {9642455A-E71A-4ACD-88F1-B069BEBB0C73}
 	EndGlobalSection
 EndGlobal
