@@ -15,4 +15,18 @@ namespace crp_api.GQL.Input.Reports
         Guid? REPORTSTATUS_ID
     );
 
+    // public record AddReportTypeInput(
+    //     string? NAME,
+    //     string? DESCRIPTION,
+    //     Guid? REPORTTYPE_ID
+    // );
+
+    // public record EditReportTypeInput(
+    //     string? NAME,
+    //     string? DESCRIPTION,
+    //     string? UPDATED_BY,
+    //     Guid? REPORTTYPE_ID
+    // );
+
+
 }

@@ -1,33 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guiliano\\Desktop\\TimeFree\\CRP\\Backend\\crp-api\\crp-api\\crp-api.csproj": {}
+    "/Users/michaelaaustria/Desktop/timefree/crp-api/crp-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guiliano\\Desktop\\TimeFree\\CRP\\Backend\\crp-api\\crp-api\\crp-api.csproj": {
+    "/Users/michaelaaustria/Desktop/timefree/crp-api/crp-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guiliano\\Desktop\\TimeFree\\CRP\\Backend\\crp-api\\crp-api\\crp-api.csproj",
+        "projectUniqueName": "/Users/michaelaaustria/Desktop/timefree/crp-api/crp-api.csproj",
         "projectName": "crp-api",
-        "projectPath": "C:\\Users\\Guiliano\\Desktop\\TimeFree\\CRP\\Backend\\crp-api\\crp-api\\crp-api.csproj",
-        "packagesPath": "C:\\Users\\Guiliano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guiliano\\Desktop\\TimeFree\\CRP\\Backend\\crp-api\\crp-api\\obj\\",
+        "projectPath": "/Users/michaelaaustria/Desktop/timefree/crp-api/crp-api.csproj",
+        "packagesPath": "/Users/michaelaaustria/.nuget/packages/",
+        "outputPath": "/Users/michaelaaustria/Desktop/timefree/crp-api/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Guiliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/michaelaaustria/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -150,7 +142,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.3.1, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
@@ -179,7 +171,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }
