@@ -1,14 +1,15 @@
 using crp_api.Data;
 using crp_api.GQL.Input.Users;
-using crp_api.GQL.PayLoad.Users;
 using crp_api.Models.Entities;
+using crp_api.Models.Entities;
+using System.Net;
 
 namespace crp_api.GQL.Mutations
 {
     public partial class Mutation
     {
         [UseDbContext(typeof(AppDbContext))]
-        public async Task<UserPayload> AddUserAsync(
+        public async Task<Response> AddUserAsync(
             AddUserInput input, [Service] AppDbContext context,
             CancellationToken cancellationToken
         )
@@ -26,9 +27,17 @@ namespace crp_api.GQL.Mutations
                 };
 
                 context.USERS.Add(user);
-                // await context.SaveSessionChangesAsync(cancellationToken, appUser);
-                await context.SaveChangesAsync();
-                return new UserPayload(user);
+
+                await context.SaveSessionChangesAsync(cancellationToken, appUser);
+
+                await transaction.CommitAsync(cancellationToken);
+
+                return new Response
+                {
+                    ResponseCode = (int)HttpStatusCode.OK,
+                    ResponseMessage = "User Successfully Created",
+                    ResponseLabel = "User Successfully Created"
+                };
             }
             catch(Exception e)
             {
@@ -37,8 +46,9 @@ namespace crp_api.GQL.Mutations
                 return null;
             }
         }
+
         [UseDbContext(typeof(AppDbContext))]
-        public async Task<UserPayload> EditUserAsync(
+        public async Task<Response> EditUserAsync(
             EditUserInput edit, [Service] AppDbContext context,
             CancellationToken cancellationToken
         )
@@ -60,9 +70,16 @@ namespace crp_api.GQL.Mutations
                 user.EMAIL = edit.EMAIL;
 
                 context.USERS.Update(user);
-                // await context.SaveSessionChangesAsync(cancellationToken, appUser);
-                await context.SaveChangesAsync();
-                return new UserPayload(user);
+                await context.SaveSessionChangesAsync(cancellationToken, appUser);
+
+                await transaction.CommitAsync(cancellationToken);
+
+                return new Response
+                {
+                    ResponseCode = (int)HttpStatusCode.OK,
+                    ResponseMessage = "User Successfully Created",
+                    ResponseLabel = "User Successfully Created"
+                };
             }
             catch(Exception e)
             {
