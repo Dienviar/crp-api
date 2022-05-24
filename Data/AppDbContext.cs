@@ -18,6 +18,8 @@ namespace crp_api.Data
         public DbSet<ReportStatus> REPORTSTATUSES { get; set; }
         public DbSet<ReportType> REPORTTYPES { get; set; }
 
+        public DbSet<crp_apiRole> ROLES { get; set; } //role
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasDefaultSchema("crp");

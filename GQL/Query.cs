@@ -10,7 +10,12 @@ namespace crp_api.GQL.Queries
         [UseProjection]
         [UseFiltering]
         [UseSorting]
+<<<<<<< HEAD
         public IQueryable<User> GetUsers([Service] AppDbContext context) 
+=======
+
+        public IQueryable<User> GetUsers([Service] AppDbContext context)
+>>>>>>> master
         {
             return context.USERS;
         }
@@ -20,30 +25,52 @@ namespace crp_api.GQL.Queries
         [UseProjection]
         [UseFiltering]
         [UseSorting]
-         public IQueryable<Report> GetReport([Service] AppDbContext context) 
+        public IQueryable<Report> GetReport([Service] AppDbContext context)
         {
             return context.REPORTS;
         }
+<<<<<<< HEAD
         //reportlog
+=======
+
+        //Report Type
+>>>>>>> master
         [UseDbContext(typeof(AppDbContext))]
         [UseOffsetPaging]
         [UseProjection]
         [UseFiltering]
         [UseSorting]
+<<<<<<< HEAD
          public IQueryable<ReportLog> GetReportLog([Service] AppDbContext context) 
         {
             return context.REPORTLOGS;
         }
         //reportstat
+=======
+        public IQueryable<ReportType> GetReportType([Service] AppDbContext context)
+        {
+            return context.REPORTTYPES;
+        }
+
+        //Role
+>>>>>>> master
         [UseDbContext(typeof(AppDbContext))]
         [UseOffsetPaging]
         [UseProjection]
         [UseFiltering]
         [UseSorting]
+<<<<<<< HEAD
          public IQueryable<ReportStatus> GetReportStatus([Service] AppDbContext context) 
         {
             return context.REPORTSTATUSES;
         }
          
+=======
+        public IQueryable<crp_apiRole> GetRole([Service] AppDbContext context)
+        {
+            return context.ROLES;
+        }
+
+>>>>>>> master
     }
 }
