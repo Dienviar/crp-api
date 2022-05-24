@@ -13,6 +13,8 @@ namespace crp_api.GQL.Mutations
             CancellationToken cancellationToken
         )
         {
+            var transaction = await context.Database.BeginTransactionAsync(cancellationToken);
+
             var appUser = new Guid();
             try
             {
@@ -30,6 +32,8 @@ namespace crp_api.GQL.Mutations
             }
             catch(Exception e)
             {
+                await transaction.RollbackAsync(cancellationToken);
+
                 return null;
             }
         }
@@ -39,6 +43,8 @@ namespace crp_api.GQL.Mutations
             CancellationToken cancellationToken
         )
         {
+            var transaction = await context.Database.BeginTransactionAsync(cancellationToken);
+
             var appUser = new Guid();
             try
             {
@@ -60,6 +66,8 @@ namespace crp_api.GQL.Mutations
             }
             catch(Exception e)
             {
+                await transaction.RollbackAsync(cancellationToken);
+
                 return null;
             }
         }

@@ -1,7 +1,7 @@
 using HotChocolate;
 using HotChocolate.Types;
 
-namespace ECTM.Models.Entities
+namespace crp_api.Models.Entities
 {
     public enum ResponseCode
     {
