@@ -1,6 +1,14 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "wsiOkKoRiluujphNUlH0lCkE1xEEHeO1DvQuOmWZn9c=",
+=======
+<<<<<<< HEAD
+  "Hash": "xm47MZK8pdVg6OlTM/UYnu1oR9xx8rGiTzqsx6R/wWU=",
+=======
+  "Hash": "Wb7w1ZDNeDURQevoH2ry2jNNJ2+++DbVrZvAd9Bwd0s=",
+>>>>>>> master
+>>>>>>> master
   "Source": "crp-api",
   "BasePath": "_content/crp-api",
   "Mode": "Default",
@@ -10,17 +18,39 @@
     {
       "Name": "crp-api\\wwwroot",
       "Source": "crp-api",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\crp-api.styles.css",
       "SourceId": "crp-api",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\crp-api.styles.css",
+      "SourceId": "crp-api",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/obj/Debug/net6.0/scopedcss/bundle/crp-api.styles.css",
+      "SourceId": "crp-api",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/obj/Debug/net6.0/scopedcss/bundle/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "crp-api.styles.css",
       "AssetKind": "All",
@@ -31,13 +61,31 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Denver\\Desktop\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\crp-api.styles.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\ADMIN\\Desktop\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\crp-api.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\crp-api.bundle.scp.css",
+      "SourceId": "crp-api",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+=======
+      "OriginalItemSpec": "/Users/michaelaaustria/Desktop/timefree/crp-api/obj/Debug/net6.0/scopedcss/bundle/crp-api.styles.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\crp-api.bundle.scp.css",
       "SourceId": "crp-api",
       "SourceType": "Computed",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/obj/Debug/net6.0/scopedcss/projectbundle/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "crp-api.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +96,31 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Denver\\Desktop\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\crp-api.bundle.scp.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\ADMIN\\Desktop\\crp-api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\crp-api.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\.DS_Store",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "/Users/michaelaaustria/Desktop/timefree/crp-api/obj/Debug/net6.0/scopedcss/projectbundle/crp-api.bundle.scp.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\.DS_Store",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -68,10 +134,24 @@
       "OriginalItemSpec": "wwwroot\\.DS_Store"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\css\\site.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\css\\site.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/css/site.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -85,10 +165,24 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\favicon.ico",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\favicon.ico",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/favicon.ico",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -102,10 +196,24 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\js\\site.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\js\\site.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/js/site.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -119,10 +227,24 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -133,13 +255,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -150,13 +290,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -167,13 +325,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -184,13 +360,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -201,13 +395,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -218,13 +430,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -235,13 +465,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -252,13 +500,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -269,13 +535,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -286,13 +570,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -303,13 +605,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -320,13 +640,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -337,13 +675,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -354,13 +710,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -371,13 +745,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -388,13 +780,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -405,13 +815,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -422,13 +850,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -439,13 +885,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -456,13 +920,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -473,13 +955,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -490,13 +990,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -507,13 +1025,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -524,13 +1060,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -541,13 +1095,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -558,13 +1130,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -575,13 +1165,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -592,13 +1200,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -609,13 +1235,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -626,13 +1270,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -643,13 +1305,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -660,13 +1340,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -680,10 +1378,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -697,10 +1409,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -714,10 +1440,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -731,10 +1471,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -748,10 +1502,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -765,10 +1533,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -782,10 +1564,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -799,10 +1595,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -816,10 +1626,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -833,10 +1657,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -850,10 +1688,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -867,10 +1719,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/bootstrap/LICENSE",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -884,10 +1750,24 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "Identity": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -898,13 +1778,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -915,13 +1813,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -932,13 +1848,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -949,13 +1883,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -966,13 +1918,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -983,13 +1953,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1000,13 +1988,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1017,13 +2023,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1034,13 +2058,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1051,13 +2093,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1068,13 +2128,31 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "crp-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
+>>>>>>> master
     },
     {
       "Identity": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "crp-api",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Denver\\Desktop\\crp-api\\wwwroot\\",
+=======
+      "ContentRoot": "/Users/michaelaaustria/Desktop/timefree/crp-api/wwwroot/",
+>>>>>>> master
+>>>>>>> master
       "BasePath": "_content/crp-api",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1085,7 +2163,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+=======
+      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+>>>>>>> master
+>>>>>>> master
     }
   ]
 }
